@@ -1,0 +1,32 @@
+.keyboardContainer{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(75px , 1fr));
+	gap: .5rem;
+}
+
+.keyboardKeys{
+	width: 100%;
+	border: 3px solid black;
+	background: none;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	padding: .5rem;
+	font-weight: bold;
+	cursor: pointer;
+	color: black;
+	aspect-ratio: 1 / 1;
+}
+
+.keyboardKeys.active{
+	background-color: lightcoral;
+	color: white;
+}
+
+.keyboardKeys.inactive{
+	opacity: .3;
+}
+
+.keyboardKeys:hover:not(:disabled),
+.keyboardKeys:focus:not(:disabled){
+	background-color: lightcoral;
+}

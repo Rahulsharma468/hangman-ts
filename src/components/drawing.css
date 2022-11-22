@@ -1,0 +1,95 @@
+.drawingContainer{
+	position: relative;
+}
+
+.bottomBar{
+	height: 10px;
+	width: 250px;
+	background: black;
+}
+
+.lineMid{
+	height: 400px;
+	width: 10px;
+	background: black;
+	margin-left: 120px;
+}
+
+.topBar{
+	height: 10px;
+	width: 200px;
+	background: black;
+	margin-left: 120px;
+}
+
+.smallLine{
+	height: 50px;
+	width: 10px;
+	position: absolute;
+	background: black;
+	right: 0;
+	top: 0;
+}
+
+.head{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	border: 10px solid black;
+	position: absolute;
+	top: 50px;
+	right: -30px;
+}
+
+.body{
+	width: 10px;
+	height: 100px;
+	position: absolute;
+	background: black;
+	top: 120px;
+	right: 0;
+}
+
+.rightArm{
+	width: 100px;
+	height: 10px;
+	position: absolute;
+	top: 150px;
+	right: -100px;
+	background: black;
+	rotate: -30deg;
+	transform-origin: left bottom;
+}
+
+.leftArm{
+	width: 100px;
+	height: 10px;
+	position: absolute;
+	top: 150px;
+	right: 10px;
+	background: black;
+	rotate: 30deg;
+	transform-origin: right bottom;
+}
+
+.rightLeg{
+	width: 100px;
+	height: 10px;
+	background: black;
+	position: absolute;
+	top: 200px;
+	rotate: 150deg;
+	right: -100px;
+	transform-origin: left bottom;
+}
+
+.leftLeg{
+	width: 100px;
+	height: 10px;
+	background: black;
+	position: absolute;
+	top: 200px;
+	rotate: -150deg;
+	right: 10px;
+	transform-origin: right bottom;
+}
